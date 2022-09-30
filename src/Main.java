@@ -14,7 +14,6 @@ public class Main {
                 9, new Employee("Арсеньев Вадим Агапович", "4", 88600),
                 10, new Employee("Рудаков Антон Владимирович", "4", 95800)));
 
-
         employeesMap.put(11, new Employee("Сидоров Антон Семенович", "1", 67400));
         System.out.println(employeesMap);
         employeesMap.put(11, new Employee("Петросов Руслан Михаилович", "3", 75000));
