@@ -30,7 +30,6 @@ public class Main {
         } else {
             System.out.println("Cотрудник не найден");
         }
-
         Iterator<Employee> iterator = employeesMap.values().iterator();
         while (iterator.hasNext()) {
             float sumSalary = 0;
