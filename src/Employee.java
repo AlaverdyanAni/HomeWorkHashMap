@@ -3,14 +3,11 @@ public class Employee {
     private String departament;
     private int salary;
 
-    private int id;
 
-
-    public Employee(String fullName, String departament, int salary, int id) {
+    public Employee(String fullName, String departament, int salary) {
         this.fullName = fullName;
         this.departament = departament;
         this.salary = salary;
-        this.id = id;
     }
 
     public String getFullName() {
@@ -25,17 +22,13 @@ public class Employee {
         return this.salary;
     }
 
-    public int getId() {
-        return this.id;
-    }
-
     public void setSalary(int salary) {
         this.salary = salary;
     }
 
     @Override
     public String toString() {
-        return "Ф.И.О. " + fullName + ", отдел - " + departament + ", зарплата - " + salary + ", ID - " + getId();
+        return "Ф.И.О. " + fullName + ", отдел - " + departament + ", зарплата - " + salary;
     }
 }
 
